@@ -805,7 +805,7 @@ oGeo3DData = [
 			material.transparent = true;
 			material.opacity = 0.5;
 		}
-		if ( vFrameMode != "none" )
+		if ( vFrameMode != "trans" )
     	{
 		    var geometry = new THREE.PlaneGeometry(100, 100, 1, 1);
 		    for(i = 0; i < geometry.vertices.length; i++){
@@ -1721,8 +1721,12 @@ oGeo3DData = [
     //-->
     </script>
 </head>
+
+<!--
 <body onload="Init();">
     高さの強調度を変えたい場合は、「index.html」の20行目の数値を変更してください。
     <div id="webgl"></div>
 </body>
+-->
+
 </html>
